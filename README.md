@@ -103,7 +103,7 @@ directly from the `~/.nuget/packages` folder.
 
 ### Solution
 
-Change the value of `ProbingLocations` from:
+Change the value of `ProbingLocations` in `nuget\RProvider.Runtime.dll.config` from:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
