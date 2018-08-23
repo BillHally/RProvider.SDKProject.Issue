@@ -49,7 +49,7 @@ The project builds successfully.
 The following error is reported:
 
 ```powershell
-Error FS3053 : The type provider 'RProvider.RProvider' reported an error : The type provider constructor has thrown an exception: Could not load file or assembly 'RDotNet, Version=1.6.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified. [D:\git\RProvider. SDKProject.Issue\RProvider.SDKProject.Issue.fsproj]
+Error FS3053 : The type provider 'RProvider.RProvider' reported an error : The type provider constructor has thrown an exception: Could not load file or assembly 'RDotNet, Version=1.6.5.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified. [D:\git\RProvider.SDKProject.Issue\RProvider.SDKProject.Issue.fsproj]
 ```
 
 The `rprovider.log` contains the following:
