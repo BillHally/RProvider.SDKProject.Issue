@@ -1,0 +1,15 @@
+STORAGE: NONE
+RESTRICTION: == net472
+NUGET
+  remote: https://www.nuget.org/api/v2
+    DynamicInterop (0.7.4)
+    FSharp.Core (4.5.2)
+    Paket (5.176.6)
+    R.NET.Community (1.6.5)
+      DynamicInterop (0.7.4)
+    R.NET.Community.FSharp (1.6.5)
+      R.NET.Community (>= 1.6.5)
+    RProvider (1.1.20)
+      DynamicInterop (0.7.4)
+      R.NET.Community (1.6.5)
+      R.NET.Community.FSharp (1.6.5)
