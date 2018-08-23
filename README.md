@@ -124,7 +124,7 @@ to:
 ### Improved solution
 
 The above fix won't work with the latest code in the RProvider repository, since that uses a version of DynamicInterop whose
-assenblies are in a `netstandard1.2` folder rather than `net40`. So, an improved fix would be:
+assemblies are in a `netstandard1.2` folder rather than `net40`. So, an improved fix would be:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
