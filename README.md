@@ -97,6 +97,10 @@ Exception rethrown at [0]:
 
 The value of `ProbingLocations` is wrong - it doesn't go high enough in the directory hierarchy.
 
+Presumably it works with non SDK-style projects because the NuGet packages are in a local folder which don't
+have additional folders named after the version of the package, whereas the SDK-style projects use the packages
+directly from the `~/.nuget/packages` folder.
+
 ### Solution
 
 Change the value of `ProbingLocations` from:
